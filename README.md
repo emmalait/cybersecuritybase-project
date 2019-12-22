@@ -26,11 +26,11 @@ The app is now running at [http://localhost:8080](http://localhost:8080).
 
 ## Flaw report
 
-* [1: SQL injection]()
-* [2: Broken authentication]()
-* [3: Sensitive data exposure]()
-* [4: Security misconfiguration]()
-* [5: Cross-site scripting (XSS)]()
+* [1: SQL injection](#flaw-1-sql-injection)
+* [2: Broken authentication](#flaw-2-broken-authentication)
+* [3: Sensitive data exposure](#flaw-3-sensitive-data-exposure)
+* [4: Security misconfiguration](#flaw-4-security-misconfiguration)
+* [5: Cross-site scripting (XSS)](#flaw-5-cross-site-scripting-xss)
 
 ### Flaw 1: SQL injection
 
