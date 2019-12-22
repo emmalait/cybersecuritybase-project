@@ -13,7 +13,13 @@ git clone
 Navigate to repo folder:
 
 ```
-cd cybersecuritybase-project/
+cd cybersecuritybase-project
+```
+
+Create jar:
+
+```
+mvn package
 ```
 
 Run the app:
