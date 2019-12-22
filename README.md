@@ -51,7 +51,7 @@ public String submitForm(@RequestParam String name, @RequestParam String address
     signupRepository.save(s);
     model.addAttribute("signup", s);
     return "done";
-    }
+}
 ```
 
 If, however, the signups should be fetched using the name parameter, the query should be made injection-proof. The program currently uses an additonal custom implementation of the SignupRepository, which uses its own EntityManager to make the insecure SQL query. This is why the injection is possible. This issue would be fixed e.g. by using Spring's native implementation for custome queries. A parametrised `WHERE` query is supported with the `@Query` notation:
